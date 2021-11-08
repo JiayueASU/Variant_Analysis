@@ -125,7 +125,7 @@ Usage of Trimmomatic (Single End): `java -jar trimmomatic-0.35.jar SE -phred33 i
 After the execution, we could obtain paired data for next step.
 
 <img src="https://github.com/JiayueASU/Variant_Analysis/blob/main/2Trimmomatic.png" width=50% height=50%>
-<br />
+
 ## Read Alignment
 
 ### BWA-mem
@@ -159,18 +159,17 @@ Copy genome.fa to the Output folder: `cp genome.fa /data/notebook/Jerry/Test/Out
 
 Generate index sequence: `bwa index genome.fa`
 
-<img src="https://github.com/JiayueASU/Variant_Analysis/blob/main/2Trimmomatic.png" width=50% height=50%>
-<img src="https://github.com/JiayueASU/Variant-Analysis/blob/main/3BWAindex.png" width=50% height=50%>
+<img src="https://github.com/JiayueASU/Variant_Analysis/blob/main/3BWAindex.png" width=50% height=50%>
 
 After 613 iterations, five new files are generated: genome.fa.amb, genome.fa.ann, genome.fa.bwt, genome.fa.pac, and genome.fa.sa.
 
 Use BWA-mem to obtain .sam file: `bwa mem genome.fa /data/notebook/Jerry/Test/Input/Data20200323/V300035135_L03_531_1.clean.fq.gz /data/notebook/Jerry/Test/Input/Data20200323/V300035135_L03_531_2.clean.fq.gz > aln-pe.sam`
 
-<img src="https://github.com/JiayueASU/Variant-Analysis/blob/main/4BWAmem.png" width=50% height=50%>
+<img src="https://github.com/JiayueASU/Variant_Analysis/blob/main/4BWAmem.png" width=50% height=50%>
 
 After 11142.574 sec, aln-pe.sam file is generated.
 
-<img src="https://github.com/JiayueASU/Variant-Analysis/blob/main/5AfterBWA.png" width=50% height=50%>
+<img src="https://github.com/JiayueASU/Variant_Analysis/blob/main/5AfterBWA.png" width=50% height=50%>
 <br />
 
 ## Variant Identification
@@ -197,7 +196,7 @@ Generate .bam file (15 min): `samtools view -bS aln-pe.sam > aln-pe.bam`
 
 Sort the generated .bam file (25 min): `samtools sort -n aln-pe.bam -o aln-pe.sort.bam`
 
-<img src="https://github.com/JiayueASU/Variant-Analysis/blob/main/8samtools.png" width=50% height=50%>
+<img src="https://github.com/JiayueASU/Variant_Analysis/blob/main/8samtools.png" width=50% height=50%>
 
 ### GATK
 
