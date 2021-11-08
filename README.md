@@ -170,7 +170,6 @@ Use BWA-mem to obtain .sam file: `bwa mem genome.fa /data/notebook/Jerry/Test/In
 After 11142.574 sec, aln-pe.sam file is generated.
 
 <img src="https://github.com/JiayueASU/Variant_Analysis/blob/main/5AfterBWA.png" width=50% height=50%>
-<br />
 
 ## Variant Identification
 
