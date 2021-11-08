@@ -1,7 +1,4 @@
 # RNA-seq
-
-<br />
-
 ## Why we have to study RNA-seq?
 
 Suppose we have two bunches of neural cells. A bunch of normal cells, and a bunch of mutated cells. **We want to know what genetic mechanism is causing the difference, which means we want to look at the differences in gene expression.**
@@ -64,9 +61,6 @@ We use Principle Component Analysis (PCA) or something like it to plot the data.
 <br />
 
 # Variant Analysis (Agenda)
-
-<br />
-
 ## Quality Assessment
 
 ### FastQC
@@ -103,8 +97,7 @@ Explanation:
 After the execution, an .html file will be generated. This file is the fastqc report of the associate fq data. The explanation of this report can be found at: 
 <http://www.bio-info-trainee.com/95.html>
 
-<img src="https://github.com/JiayueASU/Variant-Analysis/edit/master/1.png" alt="1" style="zoom:33%;" />
-
+<img src="https://github.com/JiayueASU/Variant-Analysis/edit/master/1FastQC.png?raw=true" width="500" height="100">
 
 ### Trimmomatic
 
