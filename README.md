@@ -195,7 +195,7 @@ Generate .bam file (15 min): `samtools view -bS aln-pe.sam > aln-pe.bam`
 
 Sort the generated .bam file (25 min): `samtools sort -n aln-pe.bam -o aln-pe.sort.bam`
 
-<img src="https://github.com/JiayueASU/Variant_Analysis/blob/main/8samtools.png" width=50% height=50%>
+<img src="https://github.com/JiayueASU/Variant_Analysis/blob/main/8Samtools.png" width=50% height=50%>
 
 ### GATK
 
