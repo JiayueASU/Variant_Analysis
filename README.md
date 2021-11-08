@@ -97,7 +97,7 @@ Explanation:
 After the execution, an .html file will be generated. This file is the fastqc report of the associate fq data. The explanation of this report can be found at: 
 <http://www.bio-info-trainee.com/95.html>
 
-![image](https://github.com/JiayueASU/Variant_Analysis/blob/main/1FastQC.png width="150" height="280")
+<img src="https://github.com/JiayueASU/Variant_Analysis/blob/main/1FastQC.png" width=50% height=50%>
 
 ### Trimmomatic
 
